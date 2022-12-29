@@ -1,0 +1,13 @@
+import time 
+username=input("Enter the username:")
+password=input("Enter the password:")
+confirm_password=input("Enter the confirm password:")
+print()
+print("---User login details---")
+print(f"Username is:{username}")
+print(f"Password is:{password}")
+print(f"Confirm password is:{confirm_password}")
+print("-----------------------------------")
+print()
+time.sleep(2)
+print("End of an application ..")
